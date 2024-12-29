@@ -27,6 +27,26 @@ How we treat mem0 functions:
    
 4. The API is available at `http://127.0.0.1:8000`.
 
+**Using `pipenv` to install dependencies:**
+
+1. Install `pipenv` if you haven't already:
+   ```bash
+   pip install pipenv
+   ```
+
+**MacOS**: `brew install pipenv`
+**Linux**: `sudo apt install pipenv`
+
+
+1. Install dependencies:
+   ```bash
+   pipenv install
+   ```
+
+2. Run the app:
+   ```bash
+   pipenv run uvicorn main:app --reload
+   ```
 
 **Example Usage:**
 

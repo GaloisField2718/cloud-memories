@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+uvicorn = "*"
+neo4j = "*"
+fastapi = "*"
+mem0ai = "*"
+python-dotenv = "*"
+qdrant-client = "*"
+openai = "*"
+requests = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
